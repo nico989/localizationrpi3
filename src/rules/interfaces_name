@@ -1,0 +1,7 @@
+# sudo nano /etc/udev/rules.d/72-static-name.rules
+
+ACTION=="add", SUBSYSTEM=="net", DRIVERS=="?*",
+ATTR{address}=="b8:27:eb:77:f7:2b", KERNEL=="w*", NAME="wlan0"
+
+ACTION=="add", SUBSYSTEM=="net", DRIVERS=="?*",
+ATTR{address}=="08:be:ac:07:24:da", KERNEL=="w*", NAME="wlan1"

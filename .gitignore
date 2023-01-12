@@ -1,0 +1,6 @@
+#Ignoring python cache
+src/data/__pycache__
+src/test_environment/__pycache__
+
+#Ignoring editor directory
+.vscode

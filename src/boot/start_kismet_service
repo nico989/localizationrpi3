@@ -1,0 +1,11 @@
+# sudo cp /home/pi/kismet/packaging/systemd/kismet.service /lib/systemd/system/
+# sudo systemctl edit kismet
+""" 
+[Service]
+User=username
+Group=kismet
+"""
+# sudo systemctl enable kismet
+# sudo systemctl start kismet
+# sudo systemctl status kismet
+# sudo reboot
